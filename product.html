@@ -2,29 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Product Detail</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - YoungStyle Store</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header>
-    <h1>Product Detail</h1>
+
+  <header class="main-header">
+    <div class="logo">YoungStyle Store</div>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="products.html">Back to Products</a>
-      <a href="cart.html">Cart</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main>
-    <section class="product-detail">
-      <h2>Product Name</h2>
-      <p>This is a detailed description of the product.</p>
-      <p><strong>Price:</strong> ₹999</p>
-      <button>Add to Cart</button>
-    </section>
-  </main>
+  <section class="products-section">
+    <h2 class="section-title">Best Seller Products</h2>
 
-  <script src="js/main.js"></script>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://i.imgur.com/3yRk0mD.png" alt="Headphone">
+        <h3>Wireless Headphone</h3>
+        <p>₹1,999</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://i.imgur.com/nR7aZ8T.png" alt="Smart Watch">
+        <h3>Smart Watch</h3>
+        <p>₹2,499</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://i.imgur.com/Bvv6E6u.png" alt="Bluetooth Speaker">
+        <h3>Bluetooth Speaker</h3>
+        <p>₹1,299</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 YoungStyle Store. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
