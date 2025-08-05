@@ -47,7 +47,7 @@ Welcome to **YoungStyle Store**, a modern mobile-first e-commerce website design
 
 🔗 [Click here to view live website](https://anand9023-a.github.io/Fuk/)
 
-> Replace `<your-username>` and `<your-repo-name>` with your GitHub details.
+
 
 ---
 
